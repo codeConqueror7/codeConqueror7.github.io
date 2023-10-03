@@ -1417,28 +1417,16 @@ video {
 }
 
 @media (min-width: 1280px) {
-  .xl\:space-x-\[25rem\] > :not([hidden]) ~ :not([hidden]) {
+  .xl\:space-x-\[23rem\] > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
-    margin-right: calc(25rem * var(--tw-space-x-reverse));
-    margin-left: calc(25rem * calc(1 - var(--tw-space-x-reverse)));
+    margin-right: calc(23rem * var(--tw-space-x-reverse));
+    margin-left: calc(23rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
-  .xl\:space-x-\[2rem\] > :not([hidden]) ~ :not([hidden]) {
+  .xl\:space-x-\[22rem\] > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
-    margin-right: calc(2rem * var(--tw-space-x-reverse));
-    margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
-  .xl\:space-x-\[26rem\] > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(26rem * var(--tw-space-x-reverse));
-    margin-left: calc(26rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
-  .xl\:space-x-\[26srem\] > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(26srem * var(--tw-space-x-reverse));
-    margin-left: calc(26srem * calc(1 - var(--tw-space-x-reverse)));
+    margin-right: calc(22rem * var(--tw-space-x-reverse));
+    margin-left: calc(22rem * calc(1 - var(--tw-space-x-reverse)));
   }
 }
 
