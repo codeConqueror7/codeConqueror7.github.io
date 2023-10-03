@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="dark"> 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,32 +14,32 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
 </head>
-<body class="font-Montserrat">
+<body class="dark:bg-gray-900 font-Montserrat" >
 
 
         <!-- NAV DE DESKTOK -->
-    <nav class="lg:h-12 hidden lg:flex lg:w-full lg:bg-white lg:px-6">
-        <div class="lg:h-full lg:w-full lg:flex lg:items-center lg:justify-center lg:space-x-72">
+    <nav class="lg:h-12 hidden lg:flex lg:w-full lg:bg-white lg:px-6 dark:bg-gray-800">
+        <div class="lg:h-full lg:w-full lg:flex lg:items-center lg:justify-center lg:space-x-72 ">
             <!-- LOGO -->
-            <div class="lg:h-auto lg:w-auto lg:flex lg:items-center ">
+            <div class="lg:h-auto lg:w-auto lg:flex lg:items-center">
                 <p class="lg:font-bold lg:text-gray-700 lg:transition-all
-                lg:ease-in-out lg:duration-500 lg:hover:text-primary lg:hover:scale-110 lg:hover:-translate-y-1 lg:text-xl lg:w-36">Platzi Travel</p>
+                lg:ease-in-out lg:duration-500 lg:hover:text-primary lg:hover:scale-110 lg:hover:-translate-y-1 lg:text-xl lg:w-36 dark:text-white">Platzi Travel</p>
             </div>
             <!-- ENLACES DEL CENTRO  -->
             <div class="flex space-x-4 items-center">
-                <a class="lg:text-gray-600 font-semibold lg:transition-all lg:ease-out lg:duration-500 lg:hover:text-red-500 lg:hover:scale-110 lg:hover:-translate-y-1" href="#recomendados">
+                <a class="lg:text-gray-600 font-semibold lg:transition-all lg:ease-out lg:duration-500 lg:hover:text-red-500 lg:hover:scale-110 lg:hover:-translate-y-1 dark:text-white" href="#recomendados">
                     Location
                 </a>
 
-                <a class="lg:text-gray-600 font-semibold lg:transition-all lg:ease-out lg:duration-500 lg:hover:text-red-500 lg:hover:scale-110 lg:hover:-translate-y-1" href="#rentas_destacadas">
+                <a class="lg:text-gray-600 font-semibold lg:transition-all lg:ease-out lg:duration-500 lg:hover:text-red-500 lg:hover:scale-110 lg:hover:-translate-y-1 dark:text-white" href="#rentas_destacadas">
                     Stays
                 </a>
 
-                <a class="lg:text-gray-600 font-semibold lg:transition-all lg:ease-out lg:duration-500 lg:hover:text-red-500 lg:hover:scale-110 lg:hover:-translate-y-1" href="#FAQs">
+                <a class="lg:text-gray-600 font-semibold lg:transition-all lg:ease-out lg:duration-500 lg:hover:text-red-500 lg:hover:scale-110 lg:hover:-translate-y-1 dark:text-white" href="#FAQs">
                     FAQs
                 </a>
 
-                <a class="lg:text-gray-600 font-semibold lg:transition-all lg:ease-out lg:duration-500 lg:hover:text-red-500 lg:hover:scale-110 lg:hover:-translate-y-1 lg:w-20" class="" href="#about-us">
+                <a class="lg:text-gray-600 font-semibold lg:transition-all lg:ease-out lg:duration-500 lg:hover:text-red-500 lg:hover:scale-110 lg:hover:-translate-y-1 lg:w-20 dark:text-white" class="" href="#about-us">
                     About us
                 </a>
             </div>
@@ -75,10 +75,10 @@
 
                 
                 <!-- CONTAINER DE MODO NOCHE, EXPLORE MORE, SEARCHMOVIL -->
-                <div class="font-Montserrat w-96 h-96 flex flex-col absolute py-4 space-y-12 items-center left-4 lg:flex-col lg:justify-center lg:items-start lg:left-24 lg:space-y-4 lg:h-40 lg:w-56 lg:top-52">
+                <div class="font-Montserrat w-full  h-96 flex flex-col absolute py-4 space-y-12 items-center lg:flex-col lg:justify-center lg:items-start lg:left-24 lg:space-y-4 lg:h-40 lg:w-56 lg:top-52">
 
                     <!-- Boton de modo noche -->
-                    <div class="lg:hidden w-full h-10  absolute flex justify-end items-center font-Montserrat">
+                    <div class="lg:hidden w-full h-10  absolute flex justify-end items-center font-Montserrat right-4">
                         <button class="w-20 h-10 font-bold text-white bg-primary shadow-md transition-all duration-500 ease-in-out hover:bg-red-900 rounded-full">Night</button>
                     </div>
 
@@ -96,7 +96,7 @@
 
                     <!-- Titulo De Desktop  -->
                     <p class="font-Kanit font-bold text-xl w-56 lg:text-2xl lg:transition lg:ease-in-out lg:duration-500
-                    lg:hover:text-primary hidden lg:flex">Find More Locations Like This</p>
+                    lg:hover:text-primary hidden lg:flex ">Find More Locations Like This</p>
                         <!-- BOTON EXPLORE  -->
                     
 
@@ -119,14 +119,14 @@
             <!-- 2 -->
         
         <div id="recomendados" class="p-6">
-            <p class="text-3xl font-semibold text-primary">Recomendados</p>
+            <p class="text-3xl font-semibold text-primary dark:text-white">Recomendados</p>
       
             <!-- Cartas -->
         <div class="w-auto h-72 items-center mt-6 overflow-x-auto overscroll-x-contain flex space-x-6 overflow-y-hidden">
 
             <div class="Card">
                 <div class="w-full h-3/5 rounded-t-lg bg-norway bg-cover"></div>
-                <div class="w-full h-2/5 bg-secondary rounded-b-lg py-2 px-4">
+                <div class="w-full h-2/5 bg-secondary rounded-b-lg py-2 px-4  dark:bg-gray-800">
                     <p class="text-white font-bold text-lg">Norway</p>
                     <p class="text-white text-xs">Beautiful landscapes</p>
                 </div>
@@ -134,15 +134,15 @@
             
             <div class="Card">
                 <div class="w-full h-3/5 rounded-t-lg bg-new_york bg-cover"></div>
-                <div class="w-full h-2/5 bg-white rounded-b-lg py-2 px-4">
-                    <p class="text-blue-400 font-bold text-lg">New York</p>
-                    <p class="text-blue-300 text-xs">The city of de rich and celebritys</p>
+                <div class="w-full h-2/5 bg-white rounded-b-lg py-2 px-4 dark:bg-gray-900 ">
+                    <p class="text-blue-400 font-bold text-lg dark:text-white">New York</p>
+                    <p class="text-blue-300 text-xs dark:text-white">The city of de rich and celebritys</p>
                 </div>
             </div>
 
             <div class="Card">
                 <div class="w-full h-3/5 rounded-t-lg bg-yosemite bg-cover"></div>
-                <div class="w-full h-2/5 bg-secondary rounded-b-lg py-2 px-4">
+                <div class="w-full h-2/5 bg-secondary rounded-b-lg py-2 px-4 dark:bg-gray-800">
                     <p class="text-white font-bold text-lg">Yosemite</p>
                     <p class="text-white text-xs">Beautiful trees and more</p>
                 </div>
@@ -150,14 +150,14 @@
 
             <div class="Card">
                 <div class="w-full h-3/5 rounded-t-lg bg-miami bg-cover"></div>
-                <div class="w-full h-2/5 bg-white rounded-b-lg py-2 px-4">
-                    <p class="text-blue-400 font-bold text-lg">Chicago</p>
-                    <p class="text-blue-300 text-xs">Beautiful house with foods and more.</p>
+                <div class="w-full h-2/5 bg-white rounded-b-lg py-2 px-4 dark:bg-gray-900" >
+                    <p class="text-blue-400 font-bold text-lg dark:text-white">Chicago</p>
+                    <p class="text-blue-300 text-xs dark:text-white">Beautiful house with foods and more.</p>
                 </div>
 
             </div><div class="Card">
                 <div class="w-full h-3/5 rounded-t-lg bg-switzerland bg-cover"></div>
-                <div class="w-full h-2/5 bg-secondary rounded-b-lg py-2 px-4">
+                <div class="w-full h-2/5 bg-secondary rounded-b-lg py-2 px-4 dark:bg-gray-800">
                     <p class="text-white font-bold text-lg">Switzerland</p>
                     <p class="text-white text-xs">The best visit in the world.</p>
                 </div>
@@ -165,33 +165,33 @@
 
             <div class="Card">
                 <div class="w-full h-3/5 rounded-t-lg bg-seattle bg-cover"></div>
-                <div class="w-full h-2/5 bg-white rounded-b-lg py-2 px-4">
-                    <p class="text-blue-400 font-bold text-lg">Seattle</p>
-                    <p class="text-blue-300 text-xs">Seattle es the best visit in the world</p>
+                <div class="w-full h-2/5 bg-white rounded-b-lg py-2 px-4 dark:bg-gray-900">
+                    <p class="text-blue-400 font-bold text-lg dark:text-white">Seattle</p>
+                    <p class="text-blue-300 text-xs dark:text-white">Seattle es the best visit in the world</p>
                 </div>
             </div>
 
             <div class="Card">
                 <div class="w-full h-3/5 rounded-t-lg bg-seattle bg-cover"></div>
-                <div class="w-full h-2/5 bg-white rounded-b-lg py-2 px-4">
-                    <p class="text-blue-400 font-bold text-lg">Seattle</p>
-                    <p class="text-blue-300 text-xs">Seattle es the best visit in the world</p>
+                <div class="w-full h-2/5 bg-white rounded-b-lg py-2 px-4 dark:bg-gray-800">
+                    <p class="text-blue-400 font-bold text-lg dark:text-white">Seattle</p>
+                    <p class="text-blue-300 text-xs dark:text-white">Seattle es the best visit in the world</p>
                 </div>
             </div>
 
             <div class="Card">
                 <div class="w-full h-3/5 rounded-t-lg bg-seattle bg-cover"></div>
-                <div class="w-full h-2/5 bg-white rounded-b-lg py-2 px-4">
-                    <p class="text-blue-400 font-bold text-lg">Seattle</p>
-                    <p class="text-blue-300 text-xs">Seattle es the best visit in the world</p>
+                <div class="w-full h-2/5 bg-white rounded-b-lg py-2 px-4 dark:bg-gray-900">
+                    <p class="text-blue-400 font-bold text-lg dark:text-white">Seattle</p>
+                    <p class="text-blue-300 text-xs dark:text-white">Seattle es the best visit in the world</p>
                 </div>
             </div>
 
             <div class="Card">
                 <div class="w-full h-3/5 rounded-t-lg bg-seattle bg-cover"></div>
-                <div class="w-full h-2/5 bg-white rounded-b-lg py-2 px-4">
-                    <p class="text-blue-400 font-bold text-lg">Seattle</p>
-                    <p class="text-blue-300 text-xs">Seattle es the best visit in the world</p>
+                <div class="w-full h-2/5 bg-white rounded-b-lg py-2 px-4 dark:bg-gray-800">
+                    <p class="text-blue-400 font-bold text-lg dark:text-white">Seattle</p>
+                    <p class="text-blue-300 text-xs dark:text-white">Seattle es the best visit in the world</p>
                 </div>
             </div>
         </div>
@@ -201,7 +201,7 @@
         <!-- SECCION: RENTAS DESTACADAS  -->
         <!-- 3 -->
     <div class="px-6 h-full w-full space-y-3" id="rentas_destacadas">
-       <p class="text-3xl font-semibold text-primary">Rentas Destacadas</p>
+       <p class="text-3xl font-semibold text-primary dark:text-white">Rentas Destacadas</p>
         <div class="flex flex-col space-y-6">
 
             <!-- CHICAGO 1 -->
@@ -244,24 +244,24 @@
            <div class="w-full h-full mt-12 space-y-5">
             <p class="text-2xl font-bold text-primary">FAQs</p>
 
-            <div class="space-y-2">
+            <div class="space-y-2 dark:text-white ">
                 <p class="text-md text-primary font-semibold">Payment Methods</p>
                 <p class="text-sm ">We accept VISA, MasterCard, American Express, Paypal and Binance</p>
             </div>
 
-            <div class="space-y-2">
+            <div class="space-y-2 dark:text-white">
                 <p class="text-md text-primary font-semibold">Cancelattion Policy</p>
                 <p class="text-sm ">We accept VISA, MasterCard, American Express, Paypal and Binance</p>
             </div>
-            <div class="space-y-2">
+            <div class="space-y-2 dark:text-white">
                 <p class="text-md text-primary font-semibold">Long Stays</p>
                 <p class="text-sm ">We accept VISA, MasterCard, American Express, Paypal and Binance</p>
             </div>
-            <div class="space-y-2">
+            <div class="space-y-2 dark:text-white">
                 <p class="text-md text-primary font-semibold">Cancelattion Policy</p>
                 <p class="text-sm ">We accept VISA, MasterCard, American Express, Paypal and Binance</p>
             </div>
-            <div class="space-y-2">
+            <div class="space-y-2 dark:text-white">
                 <p class="text-md text-primary font-semibold">Cancelattion Policy</p>
                 <p class="text-sm ">We accept VISA, MasterCard, American Express, Paypal and Binance</p>
             </div>  
@@ -272,14 +272,14 @@
     </section>
     <!-- SECCION: ABOUT US
         5 -->
-    <footer id="about-us" class="p-4 w-full h-full bg-slate-50 ">
+    <footer id="about-us" class="p-4 w-full h-full bg-slate-50 dark:bg-gray-900">
             
             <div class="space-y-3 w-full h-full">
                 <p class="text-gray-400 text-2xl ">About Us</p>
     
-                <ul class="w-full text-gray-300 space-y-1 ">
+                <ul class="w-full text-gray-300 space-y-1 dark:text-white">
                     <li class="urlsAbout">Investors</li>
-                    <li class="urlsAbout">arreglando un bug xd</li>
+                    <li class="urlsAbout">Jobs</li>
                     <li class="urlsAbout">Privacy policy</li>
                     <li class="urlsAbout">Terms and Conditions</li>
                     <li class="urlsAbout">Platzi Travel, inc</li>
@@ -303,7 +303,7 @@
     <!-- SECCION DE NAVBAR BACK
     6 -->
 
-    <div id="tab_bar" class="w-full h-16 bg-white border-gray-100 border-t-2 fixed left-0 bottom-0 lg:hidden">
+    <div id="tab_bar" class="w-full h-16 bg-white border-gray-100 border-t-2 fixed left-0 bottom-0 lg:hidden dark:bg-gray-900 dark:border-gray-700 ">
         <div class="h-full w-full  flex justify-center items-center space-x-14 ">
             <a href="#home">
                 <svg id="lolol" class="h-12 w-12 text-gray-400 transition-all ease-out duration-300 hover:text-red-500 hover:scale-110 hover:-translate-y-2"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -327,5 +327,12 @@
         </div>
     </div>
 
+    <script>
+        const htmlElement = document.querySelector("html")
+        const toggleButton = document.querySelector("#toggle")
+        const toggleButtonSm = document.querySelector("#toggle-sm")
+
+        toggleButton.addEventListener("click, ")
+    </script>
 </body>
 </html>
