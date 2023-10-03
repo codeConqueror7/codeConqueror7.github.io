@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.Card {
+    @apply w-48 h-64 shadow-md flex-none transform transition-all hover:-translate-y-3 hover:shadow-2xl
+}
+
+.urlsAbout{
+    @apply transition ease-out duration-500 hover:-translate-y-1 hover:text-gray-400 hover:scale-y-110 
+}
+
