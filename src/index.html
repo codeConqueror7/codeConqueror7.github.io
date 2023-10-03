@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es" class="dark"> 
+<html lang="es" class="">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -49,7 +49,7 @@
                     <svg class="lg:h-6 lg:w-6 lg:text-gray-400 lg:transition-all lg:ease-out lg:duration-500 lg:hover:text-red-500 hover:scale-110 hover:-translate-y-1"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <circle cx="11" cy="11" r="8" />  <line x1="21" y1="21" x2="16.65" y2="16.65" />  <line x1="11" y1="8" x2="11" y2="14" />  <line x1="8" y1="11" x2="14" y2="11" /></svg>                    
                 </a>
                 
-                <button>
+                <button id="toggle">
                     <svg class="lg:h-6 lg:w-6 lg:text-gray-400 lg:transition-all lg:ease-out lg:duration-500 lg:hover:text-red-500 hover:scale-110 hover:-translate-y-1 lg:hover:fill-current"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/>
                     </svg>
@@ -79,7 +79,7 @@
 
                     <!-- Boton de modo noche -->
                     <div class="lg:hidden w-full h-10  absolute flex justify-end items-center font-Montserrat right-4">
-                        <button class="w-20 h-10 font-bold text-white bg-primary shadow-md transition-all duration-500 ease-in-out hover:bg-red-900 rounded-full">Night</button>
+                        <button class="w-20 h-10 font-bold text-white bg-primary shadow-md transition-all duration-500 ease-in-out hover:bg-red-900 rounded-full" id="toggle-sm">Night</button>
                     </div>
 
                     <!-- CONTAINER DE SEARCH Y EXPLORE MORE MOVIL -->
@@ -214,7 +214,7 @@
             <div class="space-y-6 lg:flex lg:w-full lg:h-full lg:space-x-7 lg:items-center ">
                 
                 <!-- BG DE LOS ANGELES -->
-                <div class="w-full h-96 bg-LA bg-cover p-6 space-y-2 rounded-3xl shadow-sm transition-all duration-300 ease-out hover:shadow-lg hover:shadow-primary mb-2 lg:w-[36rem] lg:h-[41rem] lg:mt-8">
+                <div class="w-full h-96 bg-LA bg-cover p-6 space-y-2 rounded-3xl shadow-sm transition-all duration-300 ease-out hover:shadow-lg hover:shadow-primary mb-2 lg:w-[36rem] lg:h-[41rem] lg:mt-8 bg-center">
                     <p class="text-white font-bold text-3xl focus-within:font-mono">Los Angeles</p>
                     <p class="text-white text-base focus-within:font-mono w-44 lg:w-80">4 rooms, 3 bathrooms, kitchen and private pool.</p>
                 </div>
@@ -328,11 +328,18 @@
     </div>
 
     <script>
-        const htmlElement = document.querySelector("html")
-        const toggleButton = document.querySelector("#toggle")
-        const toggleButtonSm = document.querySelector("#toggle-sm")
+        const htmlElement = document.querySelector("html");
+        const toggleButton = document.querySelector("#toggle");
+        const toggleButtonSm = document.querySelector("#toggle-sm");
 
-        toggleButton.addEventListener("click, ")
+        toggleButton.addEventListener("click", () => toggleDarkMode() );
+        toggleButtonSm.addEventListener("click", () => toggleDarkMode() );
+
+        const toggleDarkMode = () => {
+            htmlElement.classList.contains("dark")?
+            htmlElement.classList.remove("dark") :
+            htmlElement.classList.add("dark")
+        }
     </script>
 </body>
 </html>
